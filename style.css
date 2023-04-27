@@ -1,0 +1,164 @@
+.navbar{
+    background-color:black;
+    padding: 20px;
+}
+body{
+    font-family: 'Montserrat-black';
+}
+.title-head{
+    padding-top: 20px;
+    text-align: center;
+    font-weight: 1000;
+}
+#title{
+    text-align: center;
+}
+
+.title-row{
+    text-align: center;
+    width: 1200px;
+    padding: 50px;
+}
+
+/* .title-row{
+    text-align: left;
+    background: url(watch.png);
+    height: 550px;
+    background-color: #fff;
+    padding-left: 200px;
+    padding-top: 50px;
+} */
+
+
+.h1-text{
+    
+    font-weight: 500;
+}
+
+.about{
+    color: #080808;
+    font-weight: bold;
+    margin-top: 100px ;
+}
+.btn{
+    margin: 10px;
+}
+#order{
+    text-align: center;
+    background-color: white;
+}
+.color-watch{
+    font-size: xx-large;
+   font-weight: bold;
+}
+.price-watch{
+    font-size: xx-large;
+    font-weight: bold;
+}
+.test-image{
+    border-radius: 150px;
+    padding: 50px;
+    width: 500px;  
+}
+.img{
+    border-radius: 100%;
+    display: block;
+    width: 270px;
+    border: 1px solid #555;
+    filter: blur(0.7px);
+}
+.l{
+    color: #080808;
+}
+#store{
+    /* height: 800px; */
+    color: #080808;
+    background-color: rgb(251, 251, 243);
+    padding: 50px;
+    text-align: center;
+}
+p{
+    font-weight: 700;
+}
+#pricing{
+    background-color: rgb(251, 251, 243);
+}
+.h2-store{
+    margin: 20px;
+    font-weight: bold;
+}
+#features{
+    padding: 100px;
+    background-color: rgb(251, 251, 243);
+    text-align: center;
+}
+#description{
+    background-color: rgb(251, 251, 243);
+    padding-top: 50px;
+    text-align: center;
+}
+.description-img{
+    margin: 5px;
+    
+}
+
+#contact{
+    text-align: center;
+    background-color: rgb(251, 251, 243);
+}
+
+#footer{
+    padding-top: 20px;
+    color: black;
+    text-align: center;
+    background-color: rgb(251, 251, 243);
+}
+.l{
+    padding: 20px;
+}
+
+@media (max-width:900px){
+    #title{
+        text-align: center;
+    }
+    .title-row{
+        background-color: #fefcfc;
+        margin: 0px;
+        width: 800px;
+    }
+    .description-img{
+        width: 500px;
+        margin: 5px;
+        
+    }
+
+}
+
+@media (max-width:500px){
+    #title{
+        text-align: center;
+    }
+    .title-row{
+        background-color: #fefcfc;
+        margin: 0px;
+        width: 350px;
+    }
+    .test-image{
+        border-radius: 100px;
+        padding: 50px;
+        width: 350px;    
+    }
+    #features{      
+        background-color: rgb(251, 251, 243);
+        text-align: center;
+        margin: 0px;
+        padding: 10px;
+    }
+
+    .description-img{
+        width: 300px;
+        margin: 5px;
+        
+    }
+    
+  }
